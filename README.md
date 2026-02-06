@@ -1,8 +1,8 @@
 # Trainer Card Video Player
 
-Video player within the trainer card, for use in the 5th generation Pokemon games. Video playback is simulated by modifying the trainer card signature memory area every frame. Supports Pokemon Black, White, Black 2, and White 2. Emulator-only.
+Lua script to play videos in the trainer card signature area, for use in the 5th generation Pokemon games. Video playback is simulated by modifying the trainer card signature memory location. The script supports Pokemon Black, White, Black 2, and White 2. Emulator-only.
 
-There is no practical use case; it's just for the memes. 
+Tested on BizHawk 2.11 with the MelonDS core, and DeSmuME 0.9.11
 
 ## Demo
 ![](demo.gif)
@@ -12,11 +12,10 @@ See also: [Bad Apple but it's on the Pokemon White 2 Trainer Card](https://www.y
 ## Usage
 
 ### Requirements
-- BizHawk with the MelonDS core, or DeSmuME 0.9.11
+- Lua 5.1 (DeSmuME) or 5.4 (Bizhawk)
 - Python 3.10 or later
     - PIL
 - FFmpeg
-- Lua 5.1 (DeSmuME) or 5.4 (Bizhawk)
 
 ### Windows
 ```bat
