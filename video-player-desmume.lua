@@ -7,7 +7,7 @@ local FILENAME = "data.bin"
 local function read_data(filename)
    local file, msg, code = io.open(filename, "rb")
    if not file then
-      print(string.format("Error opening file \"%s\": %s (%d)", filename, err, code))
+      print(string.format("Error opening file \"%s\": %s (%d)", filename, msg, code))
       return -1
    end
 
